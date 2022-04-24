@@ -15,4 +15,5 @@ Performance evaluation for modern CBIR-systems are rare or poorly designed as th
 We leverage the generated dataset and use the corresponding caption as ground-truth. We querying in a standardized way, we can compare the caption of the retrieved images with the given query and therefore calculate the Precision and Recall. Additionally, we process the same with the original CLIP model and show the significant performance-gain of C4T for the use-case of image-retrieval for traffic-scenarios. 
 
 
+(Pre-Trained) models are available on request.
 ...Further description tbc...
