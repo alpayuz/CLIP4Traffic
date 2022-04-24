@@ -1,8 +1,8 @@
 # CLIP4Traffic (C4T)
 CLIP4Traffic (C4T) is an image-retrieval/-search system (CBIR-system) designed to efficiently filter high-resolution traffic-data. Given a (user) text-query, the images with the highest similarity are retrieved by the system. 
 
-Based on CLIP by OpenAI, we train two encoders (image & text) separetely and project their corresponding feature-vectors (embeddings) into a joint dimension. 
-The original CLIP model tough shows severe weaknesses for such specific use-cases (e.g. multiple objects, distances etc.), therefore we build and train our own architecture. 
+Inspired by CLIP (OpenAI), we train two encoders (image & text) separetely and project their corresponding feature-vectors (embeddings) into a joint dimension. 
+The original CLIP model shows severe weaknesses for such specific use-cases (e.g. multiple objects, distances etc.), therefore we build and train our own architecture. 
 
 # Dataset
 Most benchmark models utilizing language supervision (e.g. CLIP, ConVIRT, VirTEX) are trained on an immense amount of data, however these are mostly crowd-labeled web-images with low-resolution and a bad quality of captions. CLIP uses image-classification/-detection to generate captions based on the represented object(s). 
